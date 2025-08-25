@@ -52,6 +52,13 @@ let Navbar = () => {
                 className="h-6 w-6 rounded-full"
               />
               <span className="text-white text-sm">AA Singapore</span>
+
+
+              <select className="bg-transparent outline-none cursor-pointer">
+              <option>English</option>
+              <option>Deutsch</option>
+            </select>
+              
             </div>
 
 
