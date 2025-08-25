@@ -28,7 +28,7 @@ function ContactSection() {
         {/* Company Info */}
         <div className="text-center mt-8">
           <h2 className="text-lg md:text-xl font-bold text-[#16324F]">
-            Alpha Alternatives Holdings Private Limited
+            Transgraph Research Private Limited
           </h2>
           <p className="text-gray-700 mt-2">
             34th Floor, Sunshine Tower,<br/>
