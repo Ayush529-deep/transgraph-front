@@ -55,7 +55,7 @@ let Navbar = () => {
            </div>
 
             <span className="text-xl"><img src={english} alt="UK" /></span>
-             <select className="bg-transparent outline-none cursor-pointer">
+             <select className="bg-transparent text-black outline-none cursor-pointer">
               <option>English</option>
               <option>Deutsch</option>
             </select>
