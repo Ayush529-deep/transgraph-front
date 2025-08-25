@@ -54,7 +54,7 @@ let Navbar = () => {
               <span className="text-white text-sm">AA Singapore</span>
            </div>
 
-             <select className="bg-transparent outline-none cursor-pointer">
+             <select className="bg-transparent text-white outline-none cursor-pointer">
               <option>English</option>
               <option>Deutsch</option>
             </select>
