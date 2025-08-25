@@ -22,7 +22,7 @@ function Login() {
   }, [])
 
   let allusers = () => {
-    axios.get("http://localhost:5000/allusers").then((res) => {
+    axios.get("https://transgraph-back.vercel.app/allusers").then((res) => {
       if (res.data.status) {
         setalready(res.data.ourusers)
       }
@@ -194,7 +194,7 @@ export default Login
 
 
 //   let allusers = () => {
-//     axios.get("http://localhost:5000/allusers").then((res) => {
+//     axios.get("https://transgraph-back.vercel.app/allusers").then((res) => {
 //       if (res.data.status) {
 //         setalready(res.data.ourusers)
 //       }

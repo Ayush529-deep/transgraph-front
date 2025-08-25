@@ -21,7 +21,7 @@ function Signup() {
 
   let allusers = () => {
     axios
-      .get("http://localhost:5000/allusers")
+      .get("https://transgraph-back.vercel.app/allusers")
       .then((res) => {
         if (res.data.status) {
           setalready(res.data.ourusers);
@@ -51,7 +51,7 @@ function Signup() {
       go("/");
     } else {
       axios
-        .post("http://localhost:5000/signup", { signupdata })
+        .post("https://transgraph-back.vercel.app/signup", { signupdata })
         .then((res) => {
           if (res.data.status) {
             Swal.fire({
@@ -216,7 +216,7 @@ export default Signup;
 //   }, [])
 
 //   let allusers = () => {
-//     axios.get("http://localhost:5000/allusers").then((res) => {
+//     axios.get("https://transgraph-back.vercel.app/allusers").then((res) => {
 //       if (res.data.status) {
 //         setalready(res.data.ourusers)
 //       }
@@ -254,7 +254,7 @@ export default Signup;
 //     // }
 //      else {
 
-//       axios.post("http://localhost:5000/signup", { signupdata }).then((res) => {
+//       axios.post("https://transgraph-back.vercel.app/signup", { signupdata }).then((res) => {
 //         if (res.data.status) {
 //           // alert(res.data.msg)
 //           Swal.fire({
