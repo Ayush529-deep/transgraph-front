@@ -54,6 +54,14 @@ let Navbar = () => {
               <span className="text-white text-sm">AA Singapore</span>
             </div>
 
+            <div className="flex items-center gap-2">
+            <span className="text-xl"><img src={english} alt="UK" /></span>
+            <select className="bg-transparent outline-none cursor-pointer">
+              <option>English</option>
+              <option>Deutsch</option>
+            </select>
+          </div>
+
 
 
           </div>
