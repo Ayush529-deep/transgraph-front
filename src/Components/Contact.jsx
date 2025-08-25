@@ -20,7 +20,7 @@ function ContactSection() {
       <div className="flex flex-col items-center py-12 px-6 relative -mt-48">
         {/* Image */}
         <img
-          src="/src/assets/Images/Investing.webp" // 👈 यहाँ अपनी image का path डालें
+          src="../assets/Images/Investing.webp" // 👈 यहाँ अपनी image का path डालें
           alt="Alpha Alternatives"
           className="w-full md:w-2/3 lg:w-1/2  rounded shadow-lg"
         />
