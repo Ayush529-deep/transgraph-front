@@ -1,0 +1,14 @@
+.login{
+    width: 50%;
+    margin: auto;
+    background: rgb(231, 210, 210);
+    border-radius: 20px;
+}
+
+input{
+    border: 1px solid black;
+}
+
+input:focus{
+    border: none;
+}
